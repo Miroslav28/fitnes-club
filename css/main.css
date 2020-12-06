@@ -1,0 +1,880 @@
+@font-face {
+    font-family: GilroyBold;
+    src: url("../fonts/GilroyBold.ttf");
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url("../fonts/BebasNeueRegular.ttf");
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url("../fonts/BebasNeueBold.ttf");
+}
+@font-face {
+    font-family: MuseoSansCyrl-500;
+    src: url("../fonts/MuseoSansCyrl-500.ttf");
+}
+@font-face {
+    font-family: MuseoSansCyrl-700;
+    src: url("../fonts/MuseoSansCyrl-700.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-300;
+    src: url("../fonts/MuseoSansCyrl-300.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-300;
+    src: url("../fonts/MuseoSansCyrl-300.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-100Italic;
+    src: url("../fonts/MuseoSansCyrl-100Italic.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-300Italic;
+    src: url("../fonts/MuseoSansCyrl-300Italic.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-500Italic;
+    src: url("../fonts/MuseoSansCyrl-500Italic.ttf");
+}
+
+@font-face {
+    font-family: MuseoSansCyrl-700Italic;
+    src: url("../fonts/MuseoSansCyrl-700Italic.ttf");
+}
+@font-face {
+    font-family: MuseoSansCyrl-900;
+    src: url("../fonts/MuseoSansCyrl-700Italic.ttf");
+}
+@font-face {
+    font-family: MuseoSansCyrl-900Italic;
+    src: url("../fonts/MuseoSansCyrl-900Italic.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: GilroyBold, sans-serif;
+}
+
+#main-block {
+    background: url("../images/header-bg.png");
+    background-size: cover;
+    height: 5270px;
+}
+
+#header {
+    padding: 25px 0 0 0;
+}
+
+#header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 25px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: rgb(255, 186, 0);
+    text-decoration: none;
+}
+
+.logo span {
+    color: #8700d3;
+}
+
+#menu a {
+    font-size: 14px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+#menu a:hover {
+    color: rgb(255, 186, 0);
+}
+
+#header-button form {
+    outline: none;
+}
+
+#header-button button {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background: transparent;
+    width: 188px;
+    font-size: 14px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(254, 254, 253);
+    text-align: center;
+    padding: 13px 0;
+    outline: none;
+}
+
+#header-button:hover button {
+    border-color: rgb(255, 186, 0);
+    color: rgb(255, 186, 0);
+}
+
+#main-info {
+    padding: 145px 0 130px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#main-title {
+    font-size: 65px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.154;
+    max-width: 550px;
+}
+
+#main-title span {
+    color: #ff9b00;
+}
+
+#main-geolocation {
+    margin-top: 31px;
+    display: flex;
+    align-items: center;
+    margin-left: -13px;
+}
+
+
+#main-geolocation span {
+    font-size: 16px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: #dfdfdc;
+}
+
+.fitness-button {
+    width: 272px;
+    height: 70px;
+    position: relative;
+    margin-top: 141px;
+}
+
+.fitness-button button {
+    font-size: 14px;
+    font-family: MuseoSansCyrl-700, sans-serif;
+    color: rgb(253, 252, 252);
+    line-height: 5.357;
+    text-align: center;
+    width: 272px;
+    height: 70px;
+    z-index: 222;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -7px;
+    outline: none;
+}
+
+.fitness-button .fitness-button-full {
+    position: absolute;
+    z-index: 1;
+}
+
+.fitness-button .fitness-button-low {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+#fintess-features-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.feature {
+    text-align: center;
+    margin: 0 9px;
+}
+
+.feature .feature-text {
+    font-size: 16px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgb(254, 253, 251);
+    line-height: 1.25;
+    text-align: center;
+    max-width: 178px;
+    margin-top: 25px;
+}
+
+#trainings-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 185px 0;
+}
+
+#trainings-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#trainings-title {
+    font-size: 50px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: #ff9b00;
+    line-height: 1.2;
+    max-width: 560px;
+}
+
+#trainings-title span {
+    color: white;
+}
+
+#trainings-words {
+    font-size: 16px;
+    font-family: MuseoSansCyrl-300Italic, sans-serif;
+    color: #bfbfbf;
+    line-height: 1.438;
+    max-width: 303px;
+}
+
+#trainings-results {
+    padding: 61px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.training-result {
+    margin: 0 15px;
+    position: relative;
+}
+
+.training-result:nth-child(1) {
+    margin-left: 0;
+}
+
+
+.training-result-title {
+    font-size: 25px;
+    font-family: MuseoSansCyrl-700, sans-serif;
+    color: rgb(255, 186, 0);
+    margin-left: 30px;
+    position: absolute;
+}
+
+.training-result-title-first {
+    bottom: 76px
+}
+
+.training-result-1 {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.training-result-2 {
+    margin-top: 27px;
+    position: relative;
+
+}
+
+.training-result-1 .training-result-title {
+    bottom: 21px;
+    font-size: 18px;
+}
+
+.training-result-2 .training-result-title {
+    bottom: 21px;
+    font-size: 18px;
+}
+
+#training-result-text {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: #bbbabb;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 52px;
+}
+
+#trainings-results .fitness-button {
+    bottom: 104px;
+}
+
+#fitness-team {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#fitness-team-text {
+    font-size: 50px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: #ff9b00;
+    text-align: center;
+}
+
+#fitness-team-text span {
+    color: white;
+}
+
+#trainers-container {
+    display: flex;
+    margin-top: 75px;
+}
+
+.trainer-container {
+    margin: 0 15px;
+    position: relative;
+}
+
+.trainer-img {
+    height: 297px;
+    width: 350px;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.trainer-name {
+    width: 350px;
+    height: 45px;
+    font-size: 18px;
+    font-family: MuseoSansCyrl-700, sans-serif;
+    color: rgb(254, 253, 250);
+    line-height: 1.278;
+    background: #8f00c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainer-achievement {
+    width: 350px;
+    height: 55px;
+    font-size: 13px;
+    font-family: MuseoSansCyrl-700, sans-serif;
+    color: rgb(10, 10, 10);
+    line-height: 1.769;
+    background: #f9a00f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.trainer-achievement span {
+    max-width: 202px;
+}
+
+/*.purple-block {*/
+/*    position: absolute;*/
+/*    top: -10px;*/
+/*    left: -10px;*/
+/*}*/
+
+/*.yellow-block {*/
+/*    position: absolute;*/
+/*    top: -10px;*/
+/*    right: -10px;*/
+/*    z-index: 0;*/
+/*}*/
+
+#trainers-container .slick-prev:before {
+    content: url("../images/slick-left.png");
+}
+
+#trainers-container .slick-prev {
+    left: 421px;
+    top: 457px;
+}
+
+#trainers-container .slick-next:before {
+    content: url("../images/slick-right.png");
+}
+
+#trainers-container .slick-next {
+    right: 443px;
+    top: 457px;
+}
+
+.slick-count {
+    font-size: 20px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(253, 252, 250);
+    line-height: 1.15;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#fitness-hall {
+    padding: 180px 0 140px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#fitness-hall-title {
+    font-size: 50px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: #ff9b00;
+    text-align: center;
+}
+
+#fitness-hall-title span {
+    color: white;
+}
+
+.first-hall {
+    margin-top: 47px;
+}
+
+.first-hall img:nth-child(1) {
+    margin-right: 35px;
+}
+
+.first-hall img:nth-child(2) {
+    margin-left: 35px;
+}
+
+.fitness-hall-img {
+    margin: 46px 0;
+    display: flex;
+    align-items: center;
+}
+
+.second-hall img:nth-child(1) {
+    margin-right: 65px;
+    margin-left: 95px;
+}
+
+.second-hall img:nth-child(2) {
+    margin-left: 65px;
+}
+
+#fitness-order {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 130px;
+}
+
+#fitness-order {
+    font-size: 50px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.order-title {
+    max-width: 400px;
+}
+
+#fitness-order span {
+    color: #ff9b00;
+}
+
+#fitness-order-free {
+    display: flex;
+}
+
+#fitness-order-form {
+    width: 445px;
+    height: 390px;
+    background: url("../images/fitness-order-bg.png");
+    margin-top: 45px;
+}
+
+#fitness-input-title {
+    font-size: 35px;
+    font-family: BebasNeueBold, sans-serif;
+    color: rgb(255, 186, 0);
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+#fitness-input-title span {
+    color: #aa00e2;
+}
+
+.fitness-order-input {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.fitness-order-input input {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background: transparent;
+    width: 275px;
+    padding: 20px 0 20px 50px;
+    font-size: 15px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgb(252, 251, 250);
+}
+
+.name-input input {
+    background: url("../images/input-name.png") no-repeat center left 15px;
+    outline: none;
+}
+
+.number-input {
+    margin-top: 6px;
+}
+
+.number-input input {
+    background: url("../images/input-number.png") no-repeat center left 15px;
+    outline: none;
+}
+
+.fitness-order-input input::placeholder {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgb(252, 251, 250);
+}
+
+#order-button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#fitness-order-form button {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    background: white;
+    width: 327px;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: MuseoSansCyrl-700, sans-serif;
+    color: rgb(10, 10, 10);
+    outline: none;
+}
+
+#fitness-order-politic {
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgba(253, 252, 252, 0.478);
+    max-width: 315px;
+    padding-top: 40px;
+}
+
+#fitness-order-politic a {
+    font-size: 12px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgba(253, 252, 252, 0.478);
+}
+
+#fitness-order-img {
+    margin-top: 75px;
+}
+
+#fitness-order-free-usages {
+    margin-left: -64px;
+    margin-top: 116px;
+}
+
+#order-free-usages-title {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: #e0a301;
+}
+
+.order-free-usage {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.order-free-usage-text {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: #b0afad;
+    margin-left: 15px;
+}
+
+#fitness-contacts-geolocation {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+}
+
+#fitness-contacts-title {
+    font-size: 50px;
+    font-family: BebasNeueRegular, sans-serif;
+    color: rgb(252, 251, 250);
+}
+
+#fitness-contacts-title span {
+    color: #ffba00;
+}
+
+.fitness-geolocation {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-900, sans-serif;
+    color: rgb(252, 251, 251);
+}
+
+#fitness-geolocation-1 {
+    margin-top: 80px;
+}
+
+#fitness-geolocation-2 {
+    margin-top: 15px;
+}
+
+
+.fitness-numbers {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: #a3a3a3;
+}
+
+#fitness-number-1 {
+    margin-top: 40px;
+}
+
+#fitness-number-2 {
+    margin-top: 15px;
+}
+
+#fitness-email {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-900, sans-serif;
+    color: rgb(252, 251, 251);
+    margin-top: 40px;
+}
+
+.fitness-work-days {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: #d2d1d1;
+}
+
+#fitness-work-days-1 {
+    margin-top: 40px;
+}
+
+#fitness-work-days-2 {
+    margin-top: 15px;
+}
+
+#fitness-geolocation-img {
+    position: relative;
+}
+
+#fitness-geolocation-img .fitness-geolocation-img {
+    z-index: 20;
+    position: relative;
+    width: 780px;
+    height: 421px;
+}
+
+#fitness-geolocation-img .purple-block {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 1;
+}
+
+#fitness-geolocation-img .yellow-block {
+    position: absolute;
+    bottom: -6px;
+    right: -10px;
+    z-index: 1;
+}
+
+#footer {
+    background-color: rgb(18, 17, 17);
+}
+
+#footer-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 51px 0;
+    display: flex;
+}
+
+#footer-logo .logo {
+    font-family: BebasNeueBold, sans-serif;
+}
+
+#footer-info {
+    margin: 0 auto;
+}
+
+.network-title {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(252, 251, 251);
+    margin-bottom: 26px;
+}
+
+.social-network {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.social-network:last-child {
+    margin-bottom: 0;
+}
+
+.social-network a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.network-name {
+    font-size: 12px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(252, 251, 251);
+    margin-left: 10px;
+}
+
+#footer-rules-title {
+    font-size: 15px;
+    font-family: MuseoSansCyrl-500, sans-serif;
+    color: rgb(255, 186, 0);
+}
+
+#footer-politic {
+    margin-top: 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-politic a {
+    font-size: 13px;
+    font-family: MuseoSansCyrl-300, sans-serif;
+    color: rgba(154, 154, 152, 0.341);
+    margin: 12px 0;
+}
+
+#footer-politic a:last-child {
+    margin-bottom: 0;
+}
+
+@keyframes pulse-button {
+
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.01);
+    }
+    20% {
+        transform: scale(1.02);
+    }
+    30% {
+        transform: scale(1.03);
+    }
+    40% {
+        transform: scale(1.04);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    60% {
+        transform: scale(1.04);
+    }
+    70% {
+        transform: scale(1.03);
+    }
+    80% {
+        transform: scale(1.02);
+    }
+    90% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.02);
+    }
+    20% {
+        transform: scale(1.04);
+    }
+    30% {
+        transform: scale(1.06);
+    }
+    40% {
+        transform: scale(1.08);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(1.08);
+    }
+    70% {
+        transform: scale(1.06);
+    }
+    80% {
+        transform: scale(1.04);
+    }
+    90% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+/*.fitness-hall-img img:hover {*/
+/*    animation: pulse 2s ease-in infinite;*/
+/*}*/
+
+.fitness-button:hover img {
+    animation: pulse 2s ease-in infinite;
+}
+
+.fitness-button:hover button {
+    animation: pulse 2s ease-in infinite;
+}
+
+#main-geolocation:hover span {
+    animation: pulse 2s ease-in infinite;
+}
+
+#main-geolocation:hover img {
+    animation: pulse 2s ease-in infinite;
+}
+
+.feature:hover img {
+    animation: pulse 2s ease-in infinite;
+}
+
+.feature:hover div {
+    animation: pulse 2s ease-in infinite;
+}
+
+.training-result img:hover {
+    animation: pulse 2s ease-in infinite;
+}
